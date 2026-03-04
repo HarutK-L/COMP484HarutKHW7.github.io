@@ -1,0 +1,122 @@
+/* Color Palette
+# - color 1
+# - color 2
+# - color 3
+# - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: rgb(255, 255, 255);
+    margin: 0;
+}
+
+
+h1{
+    font-size: 3.0em;
+    font-weight: 500;
+}
+h2{
+    font-size: 2.1em;
+    font-weight: 600;
+    margin-top: 0;
+}
+h3{
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+.content-wrap {
+  width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+} 
+
+.profile-img {
+    /*width: 320px;
+    float: left;
+    margin-right: 30px;*/
+    border-radius:50%;
+}
+.column-narrow{
+    width: 30%; 
+    float: left; 
+    padding-right: 3%; 
+    min-height: 175px;
+}
+
+.column-wide{
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header{
+    background: #d32105; /* Beccapurple */
+    color: #f8f8f8
+}
+
+footer{
+    text-align: center;
+    background: #e6fb00; 
+    font-size: 1.2em;
+}
+
+.contact-info a{
+    padding: 10px; 
+    display: inline-block;
+
+} 
+
+header h1{
+    margin: 0;
+}
+
+header h2{
+    margin: 0;
+}
+
+
+
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* Work Experience & Education
+------------------------------------*/
+
+/*
+.container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 40px; 
+}
+
+.left, .right {
+    width: 48%; 
+}*/
+
+.ibm-plex-serif-regular {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
